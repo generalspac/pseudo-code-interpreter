@@ -1,0 +1,11 @@
+# Compter le nombre de chiffres d'entier
+
+N <- 123457 ;
+C <- 0 ;
+
+Tq(N > 1) {
+    N <- N / 10 ;
+    C <- C + 1 ;
+} ;
+
+Ecrire(C)

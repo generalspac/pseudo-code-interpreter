@@ -1,0 +1,11 @@
+A <- 10 ;
+B <- 3 ;
+
+Si(Non(A = B) Et A > 5) {
+    Ecrire(A) ;
+
+    Tq(B < A) {
+        Ecrire(B) ;
+        B <- B + 2 ;
+    }
+}

@@ -1,0 +1,10 @@
+# Affichage des entiers pairs de 1 à 20
+
+A <- 1 ;
+
+Tq(A <= 20) {
+    Si(A % 2 = 0) {
+        Ecrire(A) ;
+    } ;
+    A <- A + 1 ;
+}

@@ -1,0 +1,14 @@
+N <- 0 ;
+
+Tq(N < 3+8) {
+    Si(N = 1 Ou N = 2) {
+        Ecrire(N) ;
+    };
+
+    Tq(Non(N != 2)) {
+        Ecrire(N) ;
+        N <- N + 1 ;
+    };
+
+    N <- N + 1 ;
+}

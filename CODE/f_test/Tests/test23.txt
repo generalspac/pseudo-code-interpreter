@@ -1,0 +1,8 @@
+# Affichage des puissances de 2 jusqu'à 256
+
+A <- 1 ;
+
+Tq(A <= 256) {
+    Ecrire(A) ;
+    A <- A * 2 ;
+}

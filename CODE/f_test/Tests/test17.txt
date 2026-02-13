@@ -1,0 +1,12 @@
+X <- 5 + 10;
+
+Y <- 8 + X;
+
+Z <- 3 + X;
+Lire(m);
+Ecrire(X);
+
+Ecrire(Z);
+
+Ecrire(m);
+Ecrire(Y)

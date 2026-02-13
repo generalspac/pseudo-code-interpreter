@@ -1,0 +1,11 @@
+P <- 1;
+Q <- 2;
+
+Si(P = 1 Et Q = 2) {
+    Tq(Q < 5) {
+        Ecrire(P);
+        Ecrire(Q);
+        Q <- Q + 1;
+        P <- P + Q;
+    }
+}

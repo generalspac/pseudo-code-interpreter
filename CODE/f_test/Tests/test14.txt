@@ -1,0 +1,26 @@
+X <- 5 + 10;
+
+Y <- 8 + X;
+
+Z <- 7 + 3;
+
+A <- Z plus 3;
+
+B <- A moins (3+5) ;
+
+Si(!( X Different Y )) {
+    Ecrire(X);
+    Ecrire(Y);
+    Si(X = Y) {
+        Ecrire(X);
+        Ecrire(Y);
+    } Sinon {
+        Lire(V);
+
+        Ecrire(V);
+    }
+} Sinon {
+    Lire(V);
+
+    Ecrire(V);
+}

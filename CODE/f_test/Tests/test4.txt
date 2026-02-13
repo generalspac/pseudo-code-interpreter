@@ -1,0 +1,11 @@
+X <- 5 ;
+Y <- 10 ;
+
+Si(X < Y Et Non(X = 3)) {
+    Ecrire(X) ;
+
+    Tq(Y > X) {
+        Ecrire(Y) ;
+        Y <- Y - 1 ;
+    }
+}

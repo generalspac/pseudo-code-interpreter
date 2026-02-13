@@ -1,0 +1,67 @@
+# --- Exécutables et Binaires ---
+*.out
+*.exe
+*.app
+*.bin
+# Exclure tous les fichiers sans extension dans le dossier racine (souvent des exécutables sous Linux/macOS)
+# Attention : à commenter si vous avez des fichiers importants sans extension
+# *
+
+# --- Objets et Bibliothèques ---
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# --- Dossiers de Build (Compilation) ---
+build/
+dist/
+bin/
+obj/
+out/
+.cmake/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+Makefile
+
+# --- Débogage et Logs ---
+*.log
+*.dSYM/
+*.stackdump
+core
+vgcore.*
+
+# --- Éditeurs et IDE ---
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# CLion / JetBrains
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+# Visual Studio (Windows)
+.vs/
+Debug/
+Release/
+*.sln
+*.vcxproj
+*.user
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+
+# --- Divers ---
+.DS_Store
+Thumbs.db
+*.swp
+*.bak

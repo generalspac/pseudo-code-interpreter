@@ -1,0 +1,11 @@
+# Calcul de la somme des entiers de 1 à 10
+
+A <- 0 ;
+B <- 1 ;
+
+Tq(B <= 10) {
+    A <- A + B ;
+    B <- B + 1 ;
+} ;
+
+Ecrire(A)

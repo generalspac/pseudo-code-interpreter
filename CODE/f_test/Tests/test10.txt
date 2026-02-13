@@ -1,0 +1,13 @@
+X <- 0 ;
+Y <- 1 ;
+
+Tq(X < 5) {
+    Si(X = 2 Ou X = 3) {
+        Ecrire(X) ;
+
+        Si(Non(Y = 0)) {
+            Ecrire(Y) ;
+        }
+    };
+    X <- X + 1 ;
+}

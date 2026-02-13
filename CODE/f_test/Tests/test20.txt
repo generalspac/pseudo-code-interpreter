@@ -1,0 +1,6 @@
+X <- 1 ;
+Y <- 2 ;
+
+Si(X = 1 ET Y = 2) {      #Erreur : ET" doit être "Et
+    Ecrire(X) ;
+}

@@ -1,0 +1,17 @@
+X <- 3;
+Y <- 1;
+Lire(Z);
+
+Si(Z < 5) {
+    Tq(Y < X & X > X - 13) {
+        Z <- 0;
+
+        Tq(Z < 2) {
+            Ecrire(Z + 7);
+            Z <- Z + 1;
+        };
+        Y <- Y + 1;
+    };
+    Ecrire(Y);
+    Ecrire(7 + 4);
+}

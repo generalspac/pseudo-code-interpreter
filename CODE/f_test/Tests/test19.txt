@@ -1,0 +1,5 @@
+X <- 3 ;
+
+Si(X INFERIEUR) {         # Erreur condition incomplete
+    Ecrire(X) ;
+}

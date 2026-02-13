@@ -1,0 +1,37 @@
+1- affectation
+- ajouter facteur comme IDF (CHAINE)
+    fait
+- ajouter un tableau de type [x][y] telque x est le nom de la variable et y est la valeur de x 
+    fait
+- se débarasser du point virgule comme caractère de fin de prog
+    fait
+
+2- AST
+    fait
+- Rajouter ECR, LIRE, AFF, COND, ...
+    fait
+- Liberer la mémoire
+    fait
+
+3- IF then ELSE then opérations
+    fait
+- Rajouter SI, ALORS, SINON dans le lexeme
+    fait
+- Rajouter INF, SUP, IEQ, SEQ, EQ comme operateur de comparaison
+    fait
+- Rajouter ET, OU, NON
+    fait
+- Rendre le Tableau des Symboles Dynamique
+    fait
+4- WHILE loop
+    fait
+
+5- Data Types
+
+6- FUNCTIONS
+
+7-ajouter debug,commentaires
+    Fait
+
+8-variabe non trouvée, pas d'arrêt systematique du programme
+    fait

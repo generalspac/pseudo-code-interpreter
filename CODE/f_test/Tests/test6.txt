@@ -1,0 +1,17 @@
+# Ceci est un commentaire
+
+Ecrire(7 + 8);
+
+X <- 45;
+
+Y <- X -20;
+
+Si(X != Y){
+    Si(X < Y){
+        Ecrire(X);
+    } Sinon{
+        Lire(Z);
+        Ecrire(Z);
+    }
+}
+

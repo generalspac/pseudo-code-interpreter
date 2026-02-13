@@ -1,0 +1,5 @@
+X <- 5 ;
+
+Sii(X INFERIEUR 10) {     // Erreur avec le Sii
+    Ecrire(X) ;
+}

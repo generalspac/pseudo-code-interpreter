@@ -1,0 +1,8 @@
+a <-3;
+b <-4/0;  #Erreur de division par 0;
+Ecrire(a);
+Ecrire(b);  #il ne l'ecrira pas
+Lire(c);
+Ecrire(c);
+d <- a % 0; #Erreur semantique
+Ecrire(d) #il ne l'ecrira pas

@@ -1,0 +1,35 @@
+# Test extrême d'imbrication de Si et Tant que
+
+A <- 1 ;
+B <- 2 ;
+C <- 3 ;
+
+Tq(A < 4) {
+    Si(B = 2) {
+        Si(C = 3) {
+            Ecrire(A) ;
+            Tq(C > 0) {
+                C <- C - 1 ;
+                Si(C = 1) {
+                    B <- B + 1 ;
+                    Tq(B < 5) {
+                        Ecrire(B) ;
+                        Si(B = 4) {
+                            Ecrire(A + B + C) ;
+                        } Sinon {
+                            A <- A + 1 ;
+                        };
+                        B <- B + 1 ;
+                    }
+                } Sinon {
+                    Ecrire(C) ;
+                }
+            }
+        } Sinon {
+            Ecrire(0) ;
+        }
+    };
+    A <- A + 1;
+};
+
+Ecrire(A)

@@ -1,0 +1,11 @@
+# Factoriel de la valeur initiale de B 
+
+A <- 1 ;
+B <- 6 ;
+
+Tq(B > 0) {
+    A <- A * B ;
+    B <- B - 1 ;
+} ;
+
+Ecrire(A)

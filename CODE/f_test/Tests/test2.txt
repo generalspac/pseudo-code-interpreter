@@ -1,0 +1,14 @@
+A <- 0 ;
+B <- 4 ;
+
+Tq(A < B) {
+    Si(A DIFFERENT 2) {
+        C <- 0 ;
+
+        Tq(C <= 2) {
+            Ecrire(C) ;
+            C <- C + 1 ;
+        }
+    } ;
+    A <- A + 1 ;
+}
